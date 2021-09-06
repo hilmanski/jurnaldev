@@ -13,9 +13,7 @@
             <p> {{.Params.Description}} </p>
             <ul>
                 <small>
-                    {{ range .Params.tags }}
-                    <li class='labels'><a href="/tags/{{ . }}">#{{ . }}</a></li>
-                    {{ end }}
+                    {{ partial "tags" .}}
                     {{ .Date.Format "Mon Jan 2, 2006" }}
                 </small>
             </ul>

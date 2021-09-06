@@ -14,9 +14,7 @@
         
         <ul>
             <small>
-            {{ range (.GetTerms "tags") }}
-            <li class='labels'><a href="{{ .Permalink }}">#{{ .LinkTitle }}</a></li>
-            {{ end }}
+            {{ partial "tags" .}}
             {{ .Date.Format "Mon Jan 2, 2006" }}
             </small>
         </ul>
