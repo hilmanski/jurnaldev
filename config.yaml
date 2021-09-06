@@ -1,0 +1,16 @@
+baseURL : https://jurnal.dev
+languageCode : id
+title : Jurnal Developer hilmanski
+
+params:
+    description: Catatan seputar dunia developer, koding atau programming dari hilmanski
+
+paginate : 30
+
+staticDir: static
+
+permalinks:
+  posts : /:slug/
+
+outputs:
+    home : ["HTML", "RSS", "JSON"]

@@ -1,18 +1,26 @@
 {{ define "main" }}
 
-<main>
-    <ul id="post">
-        {{ range .Pages }}
-        <div class="posts">
-            <h3 class="title"> <a href="{{.Permalink}}"> {{.Title}} </a></h3>
-            <p class="desc">{{.Summary}}</p>
+<nav>
+    <a href="/">🏃‍♂️ Home</a>
+</nav>
 
-            <ul class="tags">Tags:
-                <li><a href="?tag={{.Params.Tags}}}">{{ .Params.Tags }}</a> </li>
+<main>
+    {{ if hasPrefix .RelPermalink "/tags/" }} <h1> Catatan developer tentang {{ .Title }} </h1> <br> {{end}}
+
+    {{ range .Pages }}
+        <div class='mb-10'>
+            <p> <a href="{{.Permalink}}"> {{.Title}} </a> </p>
+            <p> {{.Params.Description}} </p>
+            <ul>
+                <small>
+                    {{ range (.GetTerms "tags") }}
+                    <li class='labels'><a href="{{ .Permalink }}">#{{ .LinkTitle }}</a></li>
+                    {{ end }}
+                    {{ .Date.Format "Mon Jan 2, 2006" }}
+                </small>
             </ul>
         </div>
-        {{ end }}
-    </ul>
+    {{ end }}
 </main>
 
 {{ end }}

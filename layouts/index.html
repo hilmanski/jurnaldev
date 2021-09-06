@@ -1,12 +1,33 @@
 {{ define "main" }}
-		{{ range .Site.RegularPages }}
-        <div class="posts">
-            <h3 class="title"> <a href="{{.Permalink}}"> {{.Title}} </a></h3>
-            <p class="desc">{{.Summary}}</p>
+    <p class='is-bold is-l mb-5'>Halo! saya Hilman.. <br> ini adalah Jurnal dan Kanvas saya seputar dunia koding</b></p>
+    
+    <p>
+        <a href="https://tinyletter.com/jurnaldev" target="_blank">✉️ Berlangganan email</a> saat ada konten baru.
+    </p>
+    
+    <hr>
 
-            <ul class="tags">Tags:
-                <li><a href="/tag={{.Params.Tags}}}">{{ .Params.Tags }}</a> </li>
-            </ul>
-        </div>
-        {{ end }}
+    <p class='mb-15'>🪐 Tulisan dan playground:</p>
+    {{ range .Site.RegularPages }}
+    <div class='mb-15'>
+        <p> <a href="{{.Permalink}}"> {{.Title}} </a> </p>
+        
+        <ul>
+            <small>
+            {{ range (.GetTerms "tags") }}
+            <li class='labels'><a href="{{ .Permalink }}">#{{ .LinkTitle }}</a></li>
+            {{ end }}
+            {{ .Date.Format "Mon Jan 2, 2006" }}
+            </small>
+        </ul>
+    </div>
+    {{ end }}
+
+    <hr>
+    <p class='mb-15'>🕸 Link:</p>
+    <li class='mb-15'><a href="https://bikin.club/">Bikin-bikin Club[sedang eksperimen] - tempat diskusi untuk yang suka bikin-bikin</a>
+    </li>
+    <li class='mb-15'><a href="https://freestuff.dev/">FreeStuffDev, Daftar Service/tool gratis untuk Developer</a> </li>
+    <li class='mb-15'><a href='https://pulo.dev'>PuloDev, Kumpulan konten developer Indonesia</a></li>
+    <li class='mb-15'><a href='https://sekolahkoding.com/'>Belajar koding mulai dari nol di sekolahkoding.com</a></li>
 {{ end }}

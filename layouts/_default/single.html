@@ -1,8 +1,31 @@
 {{ define "main" }}
 
-<section class="article">
-    <h1 id="title" class="py-2">{{ .Title }}</h1>
-    <div> {{ .Content }} </div>
+<section>
+    <nav>
+    <a href="/">🏃‍♂️ Home</a>
+    </nav>
+    
+    <h1>{{ .Title }}</h1>
+    <div class='article'> {{ .Content }} </div>
+    <ul>
+        <small>
+            {{ range (.GetTerms "tags") }}
+            <li class='labels'><a href="{{ .Permalink }}">#{{ .LinkTitle }}</a></li>
+            {{ end }}
+            {{ .Date.Format "Mon Jan 2, 2006" }}
+        </small>
+    </ul>
+    
+    <hr>
+    <p>
+        Terima kasih sudah membaca! <br>
+        <a href="https://tinyletter.com/jurnaldev" target="_blank">✉️ Berlangganan email</a> saat ada konten baru.
+    </p>
+    <br><br>
+
+
 </section>
+
+{{ partial "highlightjs.html"}}
 
 {{ end }}
