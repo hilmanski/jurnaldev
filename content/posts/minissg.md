@@ -6,7 +6,6 @@ slug: minissg
 tags: ["ssg"]
 featured_image: https://i.ibb.co/rbTBp5W/Screen-Shot-2021-07-08-at-10-27-49-AM.png
 ---
-
 Saya mau bercerita tentang pengalaman membuat static site generator sendiri, yang diberi nama [Mini SSG](https://minissg.vercel.app/)
 
 ## Latar belakang
@@ -57,7 +56,7 @@ Semakin lama, semakin banyak rasanya ingin menambahkan fitur. Tapi harus hati-ha
 Cukup lama saya menghabiskan waktu untuk mengimplementasikan fitur live reload. Ketika seseorang merubah sesuatu di filenya, maka program mini ssg harus dijalankan ulang dan mereload browser. 
 
 ## Gunakan sendiri
-Dengan menggunakan tool yang kamu buat sendiri, kamu bisa menemukan banyak masalah dan kekurangan. Saya banyak melakukan perbaikan setelah terus terusan menggunakannya.
+Selama membuat website mini-ssg sendiri, saya menggunakan tool ini, agar bisa merasakan langsung. Alhasil banyak yang kurang! mulai dari bug, fitur atau sedikit bumbu DX(developer experience) yang bisa dibenahi. Semuanya bisa diketahui, karena saya sendiri menggunakannya.
 
 ## Status saat ini (6 Sept 2021)
 Status sudah terpublish kurang lebih 1 bulan.

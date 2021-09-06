@@ -8,7 +8,7 @@
     {{ if hasPrefix .RelPermalink "/tags/" }} <h1> Catatan developer tentang {{ .Title }} </h1> <br> {{end}}
 
     {{ range .Pages }}
-        <div class='mb-10'>
+        <div>
             <p> <a href="{{.Permalink}}"> {{.Title}} </a> </p>
             <p> {{.Params.Description}} </p>
             <ul>
@@ -17,7 +17,7 @@
                     {{ .Date.Format "Mon Jan 2, 2006" }}
                 </small>
             </ul>
-        </div>
+        </div> <br><br>
     {{ end }}
 </main>
 
