@@ -56,6 +56,9 @@ Semakin lama, semakin banyak rasanya ingin menambahkan fitur. Tapi harus hati-ha
 ### Live Reload
 Cukup lama saya menghabiskan waktu untuk mengimplementasikan fitur live reload. Ketika seseorang merubah sesuatu di filenya, maka program mini ssg harus dijalankan ulang dan mereload browser. 
 
+## Gunakan sendiri
+Dengan menggunakan tool yang kamu buat sendiri, kamu bisa menemukan banyak masalah dan kekurangan. Saya banyak melakukan perbaikan setelah terus terusan menggunakannya.
+
 ## Status saat ini (6 Sept 2021)
 Status sudah terpublish kurang lebih 1 bulan.
 Lihat status install di [NPM](https://www.npmjs.com/package/mini-ssg).
