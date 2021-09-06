@@ -13,8 +13,8 @@
             <p> {{.Params.Description}} </p>
             <ul>
                 <small>
-                    {{ range (.GetTerms "tags") }}
-                    <li class='labels'><a href="{{ .Permalink }}">#{{ .LinkTitle }}</a></li>
+                    {{ range .Params.tags }}
+                    <li class='labels'><a href="/tags/{{ . }}">#{{ . }}</a></li>
                     {{ end }}
                     {{ .Date.Format "Mon Jan 2, 2006" }}
                 </small>

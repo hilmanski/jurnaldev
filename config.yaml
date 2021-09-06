@@ -12,8 +12,5 @@ staticDir: static
 permalinks:
   posts : /:slug/
 
-taxonomies:
-  tag : "tags"
-
 outputs:
     home : ["HTML", "RSS", "JSON"]
