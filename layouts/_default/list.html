@@ -5,7 +5,9 @@
 </nav>
 
 <main>
-    {{ if hasPrefix .RelPermalink "/tags/" }} <h1> Catatan developer tentang {{ .Title }} </h1> <br> {{end}}
+    {{ if hasPrefix .RelPermalink "/tags/" }} 
+    <h1> Catatan developer tentang {{ .Title }} </h1> 
+    {{end}}
 
     {{ range .Pages }}
         <div>
