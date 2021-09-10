@@ -6,4 +6,5 @@ slug: showingup
 tags: ["bikinbikin"]
 ---
 
-Disi saya akan bercerita tentang hal menarik dari membuat aplikasi [showingup.today](https://showingup.today/)
+[Coming Soon]
+Di sini saya akan bercerita tentang hal menarik dari membuat aplikasi [showingup.today](https://showingup.today/)
