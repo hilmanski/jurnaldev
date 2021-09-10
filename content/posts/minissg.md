@@ -3,7 +3,7 @@ title: "Membuat static site generator"
 date: 2021-09-06T15:05:13+08:00
 description: "Saya mau bercerita tentang pengalaman membuat static site generator sendiri, yang diberi nama Mini SSG"
 slug: minissg
-tags: ["ssg"]
+tags: ["ssg","bikinbikin"]
 featured_image: https://i.ibb.co/rbTBp5W/Screen-Shot-2021-07-08-at-10-27-49-AM.png
 ---
 Saya mau bercerita tentang pengalaman membuat static site generator sendiri, yang diberi nama [Mini SSG](https://minissg.vercel.app/)
