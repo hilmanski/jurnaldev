@@ -1,7 +1,7 @@
 ---
 title: "Apa itu IndieWeb"
 description: "Mengenal apa itu IndieWeb, apa manfaat dan kegunannya untuk kamu yang suka membuat konten di internet"
-date: 2021-09-10T07:04:25+08:00
+date: 2021-09-11T07:04:25+08:00
 slug: indieweb
 tags: ["catatan"]
 featured_image: https://i.ibb.co/9bpQRF3/Screen-Shot-2021-09-11-at-3-17-01-PM.png
