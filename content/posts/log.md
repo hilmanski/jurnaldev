@@ -3,7 +3,7 @@ title: "Untuk apa developer menulis"
 description: "Untuk apa sih seorang developer belbelajar menulis? entah itu bikin dokumentasi, menuliskan bug dengan detail atau sekedar membuat blog"
 date: 2021-09-04T07:04:25+08:00
 slug: log
-tags: ["menulis", "tips"]
+tags: ["menulis", "tips", "catatan"]
 ---
 
 Untuk apa sih seorang developer belajar menulis? bukan menulis koding, tapi menulis biasa.
