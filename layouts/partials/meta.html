@@ -2,6 +2,9 @@
 
 {{ if .Params.featured_image }}
     {{ $image = .Params.featured_image }}
+{{ else }}
+    {{ $titleEncode := replace .Title "%20" " " }}
+    {{ $image = print "https://ogi.sh/article?title=" $titleEncode "&subtitle=jurnaldev&imageUrl=https%3A%2F%2Fsource.unsplash.com%2FWLUHO9A_xik" }}
 {{ end }}
 
 

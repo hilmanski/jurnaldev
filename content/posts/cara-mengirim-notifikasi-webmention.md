@@ -8,9 +8,9 @@ series: ["Eksplorasi teknologi Webmention"]
 
 Sebelumnya saya menulis seputar [webmention di sini](https://jurnal.dev/webmention). Sekarang kita masuk ke bagian teknikal cara mengirimnya.
 
-Protokol Webmention - Cara Mengirim:
+Kalau kamu ingin mengimplementasikan, coba cari cara yang lebih mudah, dibanding memulainya dari nol. Contoh "wordpress plugin webmention" atau "webmention for ruby on rails" dll. sesuai tool atau teknologi yang kamu gunakan.
 
-Bagian ini adalah proses teknikal bagaimana webmention berkerja.
+Bagian ini adalah proses teknikal bagaimana webmention berkerja. Sekedar pengetahuan di balik layar atau untuk kamu yang ingin mengimplementasikannya sendiri.
 
 ## 1. Mention target
 Sebuah halaman (bisa blog atau konten apapun) menyebutkan dan memberi link ke halaman lain. Bisa dengan tag a link HTML biasa.
