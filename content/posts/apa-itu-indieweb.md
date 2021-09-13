@@ -66,11 +66,13 @@ Detail tentang [POSSE](https://indieweb.org/POSSE)
 ## IndieWeb Standard
 Indieweb juga punya beberapa standard yang bermanfaat untuk saling berkomunikasi, saya belum mengeksplor semuanya, jadi drop dulu saja linknya.
 
-Webmention - to notify other websites
-WebSub - to get real time updates on other sites' new content
-Micropub - to publish to your site with an ease
-IndieAuth - to authenticate with your website
-Microsub - (experimental) to follow others, collect posts, read, and interact with  
+[Webmention](https://jurnal.dev/webmention) - to notify other websites  
+WebSub - to get real time updates on other sites' new content  
+Micropub - to publish to your site with an ease  
+IndieAuth - to authenticate with your website  
+Microsub - (experimental) to follow others, collect posts, read, and interact with 
+
+   
 [Baca di sini](https://indieweb.org/IndieWeb#Learn_more_about_IndieWeb_standards)
 
 ## Kesan saya
