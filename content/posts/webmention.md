@@ -1,12 +1,17 @@
 ---
-title: "Webmention"
+title: "Apa itu Webmention"
 slug: webmention
 date: 2021-09-13T16:01:59+08:00
 description: "Berkenalan apa itu webmention, teknologi untuk memberitahu URL lain saat kamu memention url tersebut. Sebaliknya kamu bisa menerima notifikasi saat dimention"
-draft: true
 tags: ["catatan"]
+series: ["Eksplorasi teknologi Webmention"]
 ---
-Webmention adalah cara sederhana untuk memberitahu URL yang kamu sebutkan (mention) di websitemu. Dari perspektif penerima, webmention berarti kamu menyiapkan notifikasi saat ada orang lain yang menyebutkan website kamu.
+
+Saya sering mendengar kata "mention" dari twitter. Ketika seseorang ingin menyebutkan orang lain ia akan "mention" akun lain tersebut. Webmention tidak jauh berbeda, tapi ini bukan antar akun twitter, melainkan antar URL website.
+
+## Mengenal webmention
+
+Webmention adalah cara sederhana untuk mengirim notifikasi ke sebuah URL yang kamu sebutkan (mention) di websitemu. Dari perspektif penerima, webmention berarti kamu menyiapkan notifikasi saat ada orang lain yang menyebutkan website kamu.
 
 Teknologi ini bisa dimanfaatkan untuk membuat website menjadi lebih 'sosial', dengan menjadikannya sebagai sistem komentar, like atau respon secara umum tanpa perlu pihak ketiga.
 
@@ -19,56 +24,27 @@ Teknologi ini bisa dimanfaatkan untuk membuat website menjadi lebih 'sosial', de
 ## Syarat
 Dibutuhkan kedua website untuk mengimplementasikan teknologi webmention (mengirim dan menerima) agar bisa berjalan.
 
-## Protokol Webmention
-
-Bagian ini adalah proses teknikal bagaimana webmention berkerja.
-
-### 1. Mention target
-Sebuah halaman (bisa blog atau konten apapun) menyebutkan dan memberi link ke halaman lain. Bisa dengan tag a link HTML biasa.
-contoh di jurnal.dev salah satu halamannya berisi: 
-```
-<!doctype html>
-<html>
-  <body>
-  	Saya suka membaca <a href="https://hilman.space/tulisan">Tulisan Hilman</a>
-  </body>
-</html>
-```
-* Di sini website hilman.space kita sebut sebagai "target"
-
-### 2. Pengirim menguji halaman target
-Pengirim harus membuka URL (fetch) target dan mencari HTTP link header dengan nilai `rel=webmention`. Jika halaman target adalah HTML maka yang dicari adalah tag `<link>` atau `<a>`.
-
-Contoh hasil fetch url target
-```
-GET /tulisan HTTP/1.1
-Host: hilman.space
-HTTP/1.1 200 OK
-Link: <http://hilman.space/webmention-endpoint>; rel="webmention"
-
-<html>
-<head>
-...
-<link href="http://hilman.space/webmention-endpoint" rel="webmention" />
-...
-</head>
-<body>
-....
-<a href="http://hilman.space/webmention-endpoint" rel="webmention">webmention</a>
-...
-</body>
-</html>
-```
+Aritkel [cara mengirim notifikasi webmention](https://jurnal.dev/cara-mengirim-notifikasi-webmention/)  
+Aritkel cara menerima notifikasi webmention (coming soon)
 
 
 ## Menguji webmention
 Kamu bisa mengujinya di [webmention rocks](https://webmention.rocks/)  
 Ini adalah website untuk menvalidasi implementasi kamu.
 
-## Fun Fact
+## Informasi lain
 - Webmention adalah rekomendasi dari W3C (World Wide Web Consortium) untuk menggantikan pingback, yang hanya menggunakan HTTP dan x-www-form-urlencoded.
 
 - Webmention merupakan salah satu pilar penting dari [indieweb](https://jurnal.dev/indieweb/)
+
+## Pendapat saya
+Webmention bisa menjadi alternatif untuk orang-orang yang tidak ingin menggunakan "perusahaan" atau layanan lain di websitenya seperti disqus, sebagai layanan menampung komentar misalnya.
+
+Tentu saja jalannya masih panjang, bisa dilihat dari sulitnya mengimplementasikan sistem webmention di website kita. Untuk penggunanya pun bisa saya katakan masih terisolasi untuk kalangan "indie developer". Untuk teman-teman yang punya blog dengan pembaca umum, tentunya tidak saya sarankan menggunakan ini, karena akan mempersulitkan sistem komentarnya.
+
+Masih perlu banyak orang yang menggaungkan seputar webmention agar orang-orang lebih familiar dan perlu banyak kemudahan yang ditawarkan untuk mengimplementasikannya dalam bentuk open source atau layanan gratis. 
+
+Karena jika yang membuat layanannya adalah perusahaan berbayar, sulit untuk mempertemukan ideologi dari "indieweb" dengan layanan lain, yang ingin menghilangkan ketergantungan dari pihak ketiga.
 
 ## Refrensi
 [Your first Webmention](https://aaronparecki.com/2018/06/30/11/your-first-webmention#responses)  

@@ -14,3 +14,7 @@ permalinks:
 
 outputs:
     home : ["HTML", "RSS", "JSON"]
+
+taxonomies:
+    tag : tags
+    series : series
