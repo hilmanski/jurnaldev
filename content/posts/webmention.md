@@ -1,8 +1,9 @@
 ---
-title: "Webmention [Masih Draft]"
+title: "Webmention"
 slug: webmention
 date: 2021-09-13T16:01:59+08:00
 description: "Berkenalan apa itu webmention, teknologi untuk memberitahu URL lain saat kamu memention url tersebut. Sebaliknya kamu bisa menerima notifikasi saat dimention"
+draft: true
 tags: ["catatan"]
 ---
 Webmention adalah cara sederhana untuk memberitahu URL yang kamu sebutkan (mention) di websitemu. Dari perspektif penerima, webmention berarti kamu menyiapkan notifikasi saat ada orang lain yang menyebutkan website kamu.
@@ -36,7 +37,28 @@ contoh di jurnal.dev salah satu halamannya berisi:
 * Di sini website hilman.space kita sebut sebagai "target"
 
 ### 2. Pengirim menguji halaman target
-Pengirim harus membuka URL target dan mencari HTTP link header dengan nilai `rel=webmention`. Jika halaman target adalah HTML maka yang dicari adalah tag `<link>` atau `<a>`.
+Pengirim harus membuka URL (fetch) target dan mencari HTTP link header dengan nilai `rel=webmention`. Jika halaman target adalah HTML maka yang dicari adalah tag `<link>` atau `<a>`.
+
+Contoh hasil fetch url target
+```
+GET /tulisan HTTP/1.1
+Host: hilman.space
+HTTP/1.1 200 OK
+Link: <http://hilman.space/webmention-endpoint>; rel="webmention"
+
+<html>
+<head>
+...
+<link href="http://hilman.space/webmention-endpoint" rel="webmention" />
+...
+</head>
+<body>
+....
+<a href="http://hilman.space/webmention-endpoint" rel="webmention">webmention</a>
+...
+</body>
+</html>
+```
 
 
 ## Menguji webmention
@@ -49,6 +71,7 @@ Ini adalah website untuk menvalidasi implementasi kamu.
 - Webmention merupakan salah satu pilar penting dari [indieweb](https://jurnal.dev/indieweb/)
 
 ## Refrensi
+[Your first Webmention](https://aaronparecki.com/2018/06/30/11/your-first-webmention#responses)  
 [Layanan hosting untuk webmention](https://webmention.io/)  
 [Webmention IndieWeb](https://indieweb.org/Webmention)  
 [Webmention w3org](https://www.w3.org/TR/webmention/#authorsnote-p-2)
