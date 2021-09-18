@@ -3,7 +3,7 @@ title: "Apa itu Webmention"
 slug: webmention
 date: 2021-09-13T16:01:59+08:00
 description: "Berkenalan apa itu webmention, teknologi untuk memberitahu URL lain saat kamu memention url tersebut. Sebaliknya kamu bisa menerima notifikasi saat dimention"
-tags: ["catatan"]
+tags: ["webmention"]
 series: ["Eksplorasi teknologi Webmention"]
 ---
 
@@ -24,9 +24,8 @@ Teknologi ini bisa dimanfaatkan untuk membuat website menjadi lebih 'sosial', de
 ## Syarat
 Dibutuhkan kedua website untuk mengimplementasikan teknologi webmention (mengirim dan menerima) agar bisa berjalan.
 
-Aritkel [cara mengirim notifikasi webmention](https://jurnal.dev/cara-mengirim-notifikasi-webmention/)  
-Aritkel cara menerima notifikasi webmention (coming soon)
-
+Teknis implementasi mengirim dan menerima notifikasi webmention
+[https://www.w3.org/TR/webmention](https://www.w3.org/TR/webmention)
 
 ## Menguji webmention
 Kamu bisa mengujinya di [webmention rocks](https://webmention.rocks/)  

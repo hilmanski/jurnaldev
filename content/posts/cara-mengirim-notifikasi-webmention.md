@@ -2,8 +2,9 @@
 title: "Cara Mengirim Notifikasi Webmention"
 date: 2021-09-13T19:43:54+08:00
 description: "Bagaimana cara mengirim notifikasi webmention untuk memberitahu sebuah URL sudah dimention di link lain?"
-tags: ["catatan"]
+tags: ["webmention"]
 series: ["Eksplorasi teknologi Webmention"]
+draft: true
 ---
 
 Sebelumnya saya menulis seputar [webmention di sini](https://jurnal.dev/webmention). Sekarang kita masuk ke bagian teknikal cara mengirimnya.
