@@ -130,6 +130,8 @@ Tepung | 20000 | 1000   |  200
 *satuan takaran tidak perlu ditulis
 ```
 
+Coba [kalkulator](#kalkulator)  
+
 ## Disclaimer
 Ini adalah bahan yang bisa dihitung saja.  
 Hitung modal tentu bukan hanya bahannya saja.  
