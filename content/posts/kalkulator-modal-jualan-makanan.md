@@ -6,7 +6,7 @@ tags: ["random"]
 featured_image: https://i.ibb.co/4gCGbFp/Screen-Shot-2021-09-24-at-2-34-31-PM.png
 ---
 
-Jika bingung, baca cara menggunakannya di bawah kalkulator.
+Jika bingung, baca [cara menggunakannya](#cara-menggunakan) di bawah.
 
 ## Kalkulator
 {{< rawhtml >}}
@@ -115,7 +115,7 @@ Kalkulator menghitung harga jual minimal makanan berdasarkan modal bahan.
 Kamu mau masak "kue XYZ".  
 Kue XYZ butuh 2 telur dan 200gr tepung.    
 
-**Bahan yan harus dibeli:**  
+**Bahan yang harus dibeli:**  
 Telur 1 rak = 30 butir = Rp.40.0000  
 Tepung 1 kg = 1000 gr = Rp.20.0000  
  
@@ -132,10 +132,10 @@ Tepung | 20000 | 1000   |  200
 
 ## Disclaimer
 Ini adalah bahan yang bisa dihitung saja.  
-Hitung modal tentu bukan hanya bahannya saja.
-Ada biaya lain, seperti:
-- Tenaga kerja
-- Modal alat
+Hitung modal tentu bukan hanya bahannya saja.  
+Ada biaya lain, seperti:  
+- Tenaga kerja  
+- Modal alat  
 - Biaya operasional (listrik, gas, etc.. )  
 
 **Terima Kasih!**  
