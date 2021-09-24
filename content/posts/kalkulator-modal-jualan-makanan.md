@@ -9,6 +9,7 @@ featured_image: https://i.ibb.co/4gCGbFp/Screen-Shot-2021-09-24-at-2-34-31-PM.pn
 Jika bingung, baca [cara menggunakannya](#cara-menggunakan) di bawah.
 
 ## Kalkulator
+Silahkan masukkan daftar bahan makananamu per porsi/sajian yang dijual.
 {{< rawhtml >}}
 <section id="calculator">
 <div class='is-center'>
@@ -77,7 +78,6 @@ input {
 	margin: 40px 0;
 	background: #eee;
 	padding: 20px;
-	border: 2px solid #2755EE;
 }
 .form_row {
 	margin-bottom: 10px;
@@ -107,8 +107,6 @@ button{
 }
 </style>
 {{< /rawhtml >}}
-
-Kalkulator menghitung harga jual minimal makanan berdasarkan modal bahan.  
 
 ## Cara Menggunakan
 **Contoh kasus**  
