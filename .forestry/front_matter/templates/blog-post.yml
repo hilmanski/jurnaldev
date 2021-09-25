@@ -20,3 +20,5 @@ fields:
 - type: file
   name: featured_image
   label: featured_image
+pages:
+- content/posts/tentang-memori-heap-dan-stack.md
