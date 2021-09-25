@@ -76,6 +76,8 @@ Menyimpan data di heap sering diikat dengan kata 'allocating'. Karena kita harus
 
 Kasarnya sih.. kamu pakai stack saat sudah tahu berapa banyak data yang dibutuhkan sebelum compile berjalan dan ukurannya tidak terlalu besar. Heap sebaliknya.
 
+> Setiap bahasa program punya cara masing-masing data mana yang disimpan di heap, data mana yang di stack
+
 ## Contoh kongkrit heap dan stack?
 
 Contohnya kamu mau menyimpan angka
