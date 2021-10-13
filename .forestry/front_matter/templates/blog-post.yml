@@ -17,8 +17,10 @@ fields:
 - type: list
   name: tags
   label: tags
-- type: file
-  name: featured_image
+- name: featured_image
+  type: text
+  config:
+    required: false
   label: featured_image
 pages:
 - content/posts/memberi-solusi-yang-berlebihan-overengineer.md
