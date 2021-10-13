@@ -14,7 +14,7 @@ saya juga!
 
 Dapatlah bahan belajar baru yang akan saya tuangkan di sini. Tulisan tentang memori heap dan stack
 
-## Kenapa saya tidak pernah mendengranya?
+## Kenapa saya tidak pernah mendengarnya?
 
 "Tidak pernah mendengar" mungkin sedikit berlebihan, lebih tepatnya jarang. Alasannya karena selama ini urusan memori saat menjalankan suatu program hanya ada saat  berkutat dengan "low level language".
 
