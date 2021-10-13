@@ -1,7 +1,7 @@
 +++
 date = 2021-10-12T23:04:25Z
 description = "Over-engineer adalah istilah ketika kita menyelesaikan suatu masalah namun dengan solusi yang berlebihan. Yuk kita bahas seputar apa itu overengineering di sini"
-featured_image = "/uploads/screen-shot-2021-10-13-at-10-59-01-am.png"
+featured_image = "https://i.ibb.co/HptF5FJ/Screen-Shot-2021-10-13-at-10-59-01-AM.png"
 slug = "overengineer"
 tags = ["catatan"]
 title = "Memberi solusi yang berlebihan (overengineer)"
