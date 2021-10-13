@@ -55,7 +55,7 @@ Pertanyaannya: apakah kamu rela menghabiskan banyak waktu untuk itu? mempelajari
 
 Saat solusi yang ada sudah cukup memuaskan. Maka tidak perlu berlebihan mengejar lebih cepat 0.0005 detik tersebut, jika memang tidak dibutuhkan.
 
-Justru 'over-engineer' adalah ketika kita menggunakan resource kita sendiri (pikiran dan waktu) untuk menyelesaikan masalahnya.
+Justru 'over-engineer' adalah ketika kita menggunakan resource kita sendiri (pikiran dan waktu) untuk menyelesaikan masalahnya secara berlebihan.
 
 Kita harus memikirkan "tradeoff"(apa yang ditukar) dan melihat mana yang lebih menguntungkan, meskipun ada sedikit yang dikorbankan.
 
