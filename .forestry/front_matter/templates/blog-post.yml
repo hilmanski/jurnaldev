@@ -21,4 +21,5 @@ fields:
   name: featured_image
   label: featured_image
 pages:
+- content/posts/memberi-solusi-yang-berlebihan-overengineer.md
 - content/posts/tentang-memori-heap-dan-stack.md
