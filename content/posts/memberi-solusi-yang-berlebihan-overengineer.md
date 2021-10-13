@@ -1,5 +1,5 @@
 +++
-date = ""
+date = "2021-10-13T07:04:25+08:00"
 description = "Over-engineer adalah istilah ketika kita menyelesaikan suatu masalah namun dengan solusi yang berlebihan. Yuk kita bahas seputar apa itu overengineering di sini"
 featured_image = "/uploads/screen-shot-2021-10-13-at-10-59-01-am.png"
 slug = "overengineer"
