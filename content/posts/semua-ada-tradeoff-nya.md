@@ -43,3 +43,5 @@ Sekarang kita yang memilih..
 Kasusnya sudah ada di depan mata, silahkan dipelajari.  
 Tentukan mana yang kamu pilih  
 Semua ada tradeoffnya
+
+_kata kunci: apa itu tradeoff, bahasa program mana yang paling bagus? framework apa yang paling cepat? tradeoff di dunia koding_
