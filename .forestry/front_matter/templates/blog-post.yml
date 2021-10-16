@@ -24,4 +24,5 @@ fields:
   label: featured_image
 pages:
 - content/posts/memberi-solusi-yang-berlebihan-overengineer.md
+- content/posts/semua-ada-tradeoff-nya.md
 - content/posts/tentang-memori-heap-dan-stack.md
