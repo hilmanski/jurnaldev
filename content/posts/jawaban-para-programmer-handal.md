@@ -5,7 +5,7 @@ featured_image = "https://i.ibb.co/MsBdFVN/Screen-Shot-2021-10-20-at-11-32-26-AM
 slug = "jawaban-programmer"
 tags = ["catatan"]
 title = "Jawaban para programmer handal"
-
+series = ["programmer-handal-menjawab"]
 +++
 Jawaban yang ada di artikel ini adalah terjemahan dari artikel di website stifflog.com berjudul "Stiff asks, great programmers answer" yang sayangnya sudah tidak bisa diakses lagi. Hanya dapat diakses dengan [internet archive](https://web.archive.org/web/20061124122032/http://www.stifflog.com/2006/10/16/stiff-asks-great-programmers-answer/).
 
