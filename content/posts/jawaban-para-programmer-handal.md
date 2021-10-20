@@ -1,18 +1,15 @@
 +++
 date = 2021-10-19T16:00:00Z
 description = "Ini adalah daftar jawaban dari para programmer handal seputar pertanyaan tentang dunia programming"
-draft = true
 featured_image = "https://i.ibb.co/MsBdFVN/Screen-Shot-2021-10-20-at-11-32-26-AM.png"
 slug = "jawaban-programmer"
 tags = ["catatan"]
 title = "Jawaban para programmer handal"
 
 +++
-Jawaban dan pertanyaan yang ada di artikel ini adalah terjemahan dari artikel di website stifflog.com berjudul "Stiff asks, great programmers answer" yang sayangnya sudah tidak bisa diakses lagi. Hanya dapat diakses dengan [internet archive](https://web.archive.org/web/20061124122032/http://www.stifflog.com/2006/10/16/stiff-asks-great-programmers-answer/).
+Jawaban yang ada di artikel ini adalah terjemahan dari artikel di website stifflog.com berjudul "Stiff asks, great programmers answer" yang sayangnya sudah tidak bisa diakses lagi. Hanya dapat diakses dengan [internet archive](https://web.archive.org/web/20061124122032/http://www.stifflog.com/2006/10/16/stiff-asks-great-programmers-answer/).
 
 Beberapa tahun lalu, penulis artikel, Jarosław Rzeszótko tiba-tiba terpikirkan sebuah ide untuk mengirim 10 pertanyaan ke 10 programmer hebat. Email mereka ada di publik, ia pun mau memanfaatkannya dengan baik.  Tidak semua menjawab, tapi usaha ini gratis, kenapa tidak dicoba.
-
-_Konteks: ini ditanyakan di tahun 2006._
 
 ## Orang-orang yang diinterview
 
@@ -28,22 +25,25 @@ Peter Norvig - Research Director di Google
 
 Guido Van Rossum - Kreator  Python
 
-Bjarne Stroustrup - Kreator C++ 
+Bjarne Stroustrup - Kreator C++
 
 James Gosling - Kreator Java
 
 Tim Bray - Author XML dan Atom web standard
 
-## Bagaimana kamu belajar programming? sekolah?
+## Pertanyaan yang ditanyakan
 
-Pertanyaan pertama 
+* Dari mana kamu belajar programming? apakah sekolah itu penting?
+* Apa skill yang paling penting dimiliki oleh programmer?
+* Apakah matematika / Fisika adalah skill penting untuk programmer? kenapa?
+* Apa hal besar berikutnya yang akan datang di dunia programming?
+* Kalau kamu punya 3 bulan untuk belajar teknologi baru, apa yang kamu pilih?
+* Apa menurutmu hal yang membuat programmer 10x atau 100x lebih produktif?
+* Apa tool favorit yang kamu tidak bisa hidup tanpanya?
+* Apa buku favoritmu yang terkait dan tidak terkait dengan programming?
 
-_"Bagaimana kamu belajar programming? Apakah sekolah berguna? atau mungkin kamu tidak peduli dengan menyelesaikan sekolah?"_
+## Konteks: 
 
-**Steve Yegge:** Saya belajar programming di kalkulator HP menggunakan stack bahasa RPN saat berumur 17 tahun. Saya sudah mencoba belajar bekali-kali tapi belum pernah "masuk". Kalkulator ilmiah HP 28c dan 48g sangat luar biasa dan punya dokumentasi yang bagus. Saya membuat kerangka viewer 3D untuk 48g - Saya mendapatkan buku 3D grafik dan menerjemahkan dengan susah payah dari bahasa Pascal ke stacknya. Sangat indah saat itu berhasil berjalan. 
+Pertanyaan ini diajukan di tahun 2006, jangan menerima saran dan jawaban bulat-bulat. Sesuaikan dengan jaman dan kondisi kamu sekarang.
 
-Setelah itu saya membeli PC dan Turbo Pascal. Mulai belajar programming dengan serius. Saya menjadi programmer yang cukup baik saat saya masuk kuliah Computer Science (CS).
-
-Saya kuliah di University of Washington dan mendapat sarjana CS. Menurut saya ini bermanfaat, saya merekomendasikan programmer untuk tetap mencoba kuliah CS jika memungkinkan.
-
-**Linus Torvalds:** s
+Kita akan membahas setiap pertanyannya di artikel yang berbeda.
