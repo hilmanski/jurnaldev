@@ -23,6 +23,7 @@ fields:
     required: false
   label: featured_image
 pages:
+- content/posts/buku-untuk-programmer-halo-koding.md
 - content/posts/jawaban-para-programmer-handal.md
 - content/posts/memberi-solusi-yang-berlebihan-overengineer.md
 - content/posts/semua-ada-tradeoff-nya.md
