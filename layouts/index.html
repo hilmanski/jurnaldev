@@ -12,6 +12,7 @@
     <hr>
 
     <p class='mb-15'>🪐 Tulisan dan playground:</p>
+    <div class="is-flex">
     {{ range .Site.RegularPages }}
     <div class='mb-15'>
         <p> <a href="{{.Permalink}}"> {{.Title}} </a> </p>
@@ -24,6 +25,7 @@
         </ul>
     </div>
     {{ end }}
+    </div>
 
     <hr>
     <p class='mb-15'>🕸 Link proyek berjalan:</p>
